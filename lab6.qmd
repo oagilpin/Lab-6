@@ -3,14 +3,16 @@ project:
   type: website
   output-dir: docs
 title: "CSU_ESS330_Lab6"
-author: "Olivia Gilpin"
+author:
+- name: Olivia Gilpin
+  email: "ogilpin@colostate.edu"
 date: "4-3-2025"
 format:
   html:
+    self-contained: true
     toc: true
     toc-depth: 3
     toc-location: left 
-    self-contained: true
 execute:
   echo: true
 editor: visual
